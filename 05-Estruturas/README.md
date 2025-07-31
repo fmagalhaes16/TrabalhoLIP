@@ -3,7 +3,7 @@
 **Jogo de Adivinhação com Dicas**
 
 O usuário tem que adivinhar um número de 0 a 100, ele irá receber dicas se o número está mais alto ou mais baixo, o usuário terá um número limitado de tentativas.
-
+```
 import random
 print(" Bem-vindo ao Jogo da Adivinhação!")
 print("Tente adivinhar o número secreto entre 1 e 100.")
@@ -27,4 +27,4 @@ while tentativas_restantes > 0:
     	print("Entrada inválida! Digite apenas números inteiros.")
 if tentativas_restantes == 0:
 	print("\n Fim de jogo! O número secreto era {numero_secreto}. Tente novamente!")
-
+´´´
